@@ -6,7 +6,7 @@ import numpy as np
 from .utils import create_models
 
 class RND:
-  def __init__(self, input_size, output_size=32, predictor_hidden=[32],
+  def __init__(self, input_size=128, output_size=32, predictor_hidden=[32],
     target_hidden=[32, 32], activation="swish", lr=1e-3, buffer_size=10000,
     batch_size=32
   ):
