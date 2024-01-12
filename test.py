@@ -24,7 +24,7 @@ for step in range(100):
 
 rnd.save("models")
 
-rnd = RND(INPUT_SIZE)
+rnd = RND()
 
 rnd.load("models")
 
